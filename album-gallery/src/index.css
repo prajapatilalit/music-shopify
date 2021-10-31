@@ -301,4 +301,8 @@ table {
   height: 60px;
 }
 
-/* signup */
+/* playlists */
+
+.playlistsItem {
+  display: flex;
+}
