@@ -3,7 +3,7 @@ import Playlists from "./Playlists";
 
 const Library = ({ playlists, onRemovePlaylist }) => {
   return (
-    <div>
+    <div className="playlistsItem">
       <Playlists
         playlistItems={playlists}
         onDeletePlaylist={onRemovePlaylist}
