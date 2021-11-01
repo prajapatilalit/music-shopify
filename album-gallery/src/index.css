@@ -305,4 +305,5 @@ table {
 
 .playlistsItem {
   display: flex;
+  flex-flow: wrap;
 }
